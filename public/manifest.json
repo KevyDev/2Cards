@@ -1,0 +1,15 @@
+{
+  "short_name": "2Cards",
+  "name": "2Cards by KevyDev",
+  "icons": [
+    {
+      "src": "https://kevydev.github.io/portfolio/kevydev-logo.jpg",
+      "type": "image/jpg",
+      "sizes": "240x240"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#009500",
+  "background_color": "#eee"
+}
