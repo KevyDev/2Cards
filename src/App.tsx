@@ -30,7 +30,7 @@ export default function App() {
         fetchCards(setCards, setError)
     }, [])
 
-    const loadPairs = () => setCurrentPairs(selectPairs(cards))
+    const loadPairs = () => setCurrentPairs(selectPairs([...cards]))
 
     useEffect(function initGame () {
         if(cards.length > 0) {
